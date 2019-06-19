@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.post.service.PostService;
 import com.example.post.vo.PostVO;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 @RequestMapping("/old_post")
 public class PostController {
 	@Autowired
