@@ -43,7 +43,6 @@
 			<version>1.18.8</version>
 			<scope>provided</scope>
 		</dependency>
-		</dependency>
 		<!-- MySQL JDBC Driver -->
 		<dependency>
 			<groupId>mysql</groupId>
